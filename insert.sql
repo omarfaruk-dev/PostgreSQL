@@ -20,4 +20,4 @@ VALUES
 -- constrain
 INSERT INTO users(name, email, age, contactNo, password)
 VALUES
-('Faruk', 'Faruk@email.com', 19, '01735412548', 'asdf134');
+('Fatiha', 'fatiha@email.com', 20, '01735412548', 'asdf134');

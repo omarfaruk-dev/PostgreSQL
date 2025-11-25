@@ -42,3 +42,28 @@ VALUES
 ('Sajid', 24, 'male', 'sajid24@mail.com', '01788990011', 'Comilla', 'Sajid@333'),
 
 ('Rima', 20, 'female', 'rima20@mail.com', '01899001122', 'Gazipur', 'Rima*1212');
+
+
+-- create order table
+CREATE TABLE orders (
+    id SERIAL PRIMARY KEY,
+    userId INT NOT NULL,
+    total INT,
+    quantity INT
+);
+
+SELECT * FROM orders;
+
+INSERT INTO orders (userId, total, quantity) VALUES
+(1, 500, 2),
+(2, 1200, 5),
+(3, 750, 3),
+(4, 300, 1),
+(5, 1500, 6),
+(6, 800, 2),
+(7, 950, 4),
+(8, 400, 1),
+(9, 1100, 5),
+(10, 600, 2),
+(11, 700, 3);
+
